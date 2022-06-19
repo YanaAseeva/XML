@@ -1,1 +1,28 @@
-
+<bugReport>
+        <ID>A1</ID>
+        <Title>In user's personal account in address book section it is unable to add new address</Title>
+        <Project>Testing an internet shop 'Itcobra'</Project>
+        <Pre-conditions>To be signed up</Pre-conditions>
+        <STR>
+                1. Log in to the site test.itcobra.ru
+                2. Click 'personal account'",
+                3. In drop-down list click 'personal account'
+                4. Click 'address book'
+                5. Click 'add new address'
+         </STR> 
+        <Enviroment>
+       
+                OS: Windows 10 x64 build 19043
+                Browser: Google Chrome v96.0.4664.45 x64
+        </Enviroment>
+        <Component>Button 'add new address'</Component>
+        <Build>0.5.7</Build>
+        <Actual_result>Click on the button 'add new address' doesn't add new address</Actual_result>
+        <Expected_result>Click on the button 'add new address' adds new address</Expected_result>
+        <Severity>Trivial</Severity>
+        <Priority>medium</Priority>
+        <Status>Open</Status>
+        <Author>Yana Aseeva</Author>
+        <Sign_to>JaneA</Sign_to>
+        <Attachments>link to the picture</Attachments>
+</bugReport>
